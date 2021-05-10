@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+}
+
+h1 { 
+    font-size: 6em;
+    text-align: center;
+    margin-bottom: inherit;
+    margin-top: 0;
+}
+
+h2{
+    text-align: center;
+    font-size: 3em;
+    margin-top: 0;
+}
+
+header {
+    display: block;
+    background: gray;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.25)
+    ;
+}
+
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    border-right: black;
+    color: black;
+    border-radius: 5px;
+    
+}
+
+form {
+    margin-top: 30px;
+
+}
+
+
+.centered-image {
+    display: block;
+    max-width: 50%;
+    width: 33%;
+    height: auto;
+    /* margin-left: 25%; */
+}
+
+.artist-name {
+    text-align: left;
+}
+
+.piece-title {
+    text-align: left;
+}
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+}
+
+.image-card {
+    background-color: lightgray;
+    /* margin: 15px; */
+    padding: 15px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 30px;
+}
+
+
+#main {
+    margin-top: 150px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#top-nav {
+    display: block;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 6px;
+    padding-bottom: 6px;
+
+}
+#featured-piece {
+
+}
+
+#search-piece {
+    /* display: none; */
+}
+
+#random-piece {
+    /* display: none; */
+}
+
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    background-color: white;
+    text-decoration: underline;
+}
