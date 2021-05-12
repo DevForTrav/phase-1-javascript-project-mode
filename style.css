@@ -5,8 +5,8 @@ body {
 h1 { 
     font-size: 6em;
     text-align: center;
+    margin: 0;
     margin-bottom: inherit;
-    margin-top: 0;
 }
 
 h2{
@@ -25,6 +25,9 @@ header {
     ;
 }
 
+p {
+    text-align: center;
+}
 
 a {
     text-decoration: none;
@@ -38,6 +41,9 @@ a {
 form {
     margin-top: 30px;
 
+}
+img{
+    margin: 0;
 }
 
 
@@ -77,7 +83,24 @@ form {
     margin: 30px;
 }
 
+.collection-image {
+    width: 80%;
+    display: block; 
+    margin: 5%
+    /* margin:0;  */
+}
+.collection-li{
+    display: block;
+    width: 33%;
+    margin: 0;
+    float:left;
+    background-color: white;
+}
 
+.object-id{
+    display: none;
+
+}
 #main {
     margin-top: 150px;
     margin-right: 10px;
@@ -103,7 +126,10 @@ form {
 #random-piece {
     /* display: none; */
 }
-
+#art-collection {
+    background-color: lightgrey;
+ 
+}
 
 @keyframes spin {
     0% { transform: rotate(0deg); }
